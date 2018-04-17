@@ -1,0 +1,24 @@
+A large scale event such as a music concert has its own
+complexities. Ticket booking, artist's time slot, attendee
+engagement are some of the complexities. A simplified
+system is thus required in order to keep track of the above
+activities.
+A ticket booking system is implemented using java swing as
+the front end providing the GUI.The users can choose the
+date and time slot for the event they wish to attend.
+ The users get re-directed to another page that provides the
+details regarding the type of ticket(VIP,Phase-II,Phase-I),
+discounts and food coupons.
+Using Facade as the design pattern(second tier),
+complexities of such a system can be hidden and an
+interface to the client is provided. Now the client can access
+the system with ease. Client/Attendee needs a simplified
+interface to the overall functionality of a concert.
+The back-end is implemented with the help of Java JDBC .
+JDBC is a java API which is used to connect and execute
+queries with the database of the concert.Here the details of
+the customers are stored and retrieved as and when
+required.
+The final ticket price is calculated and an online e-ticket is
+generated providing details about the customer and the
+artist's concert they wish to attend. 
